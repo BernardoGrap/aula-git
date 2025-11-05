@@ -1,0 +1,86 @@
+1.1:
+O Git é considerado distribuído porque cada desenvolvedor tem uma cópia completa do repositório, incluindo todo o histórico de alterações.
+
+1.2:
+Working Directory: É o diretório onde você está trabalhando no seu computador. Contém os arquivos de código que você está editando.
+Staging Area: Também chamada de "índice", é onde você coloca as alterações que deseja incluir no próximo commit. Aqui você seleciona e prepara as mudanças para serem salvas no repositório.
+Repository: É onde o Git armazena todo o histórico de versões e os commits. Pode estar no seu computador (local) ou em um servidor (remoto).
+
+1.3:
+Git clone é usado para copiar um repositório remoto para o seu computador.
+
+1.4:
+Working Directory: Está fisicamente no seu computador, dentro da pasta do projeto onde você está trabalhando.
+Staging Area: Está dentro do diretório .git (que é oculto), onde o Git armazena temporariamente as alterações antes do commit.
+Repository: Também está dentro do diretório .git, e contém todo o histórico de versões do repositório, incluindo os commits.
+
+1.5:
+Untracked: O arquivo não está sendo monitorado pelo Git.
+
+Tracked: O arquivo é monitorado pelo Git e pode estar em um dos seguintes estados:
+	Unmodified: O arquivo não foi alterado desde o último commit.
+	Modified: O arquivo foi alterado, mas ainda não foi adicionado ao staging area.
+	Staged: O arquivo foi modificado e adicionado ao staging area, pronto para ser incluído no próximo commit.
+
+1.6:
+Untracked -> Tracked: Quando você adiciona o arquivo ao Git com git add, ele passa a ser monitorado.
+Unmodified -> Modified: Se você edita um arquivo, ele passa para o estado "Modified".
+Modified -> Staged: Quando você usa git add, o arquivo passa a ser "staged", ou seja, está preparado para ser commitado.
+Staged -> Committed: Quando você faz um git commit, o arquivo que estava no staging é finalmente salvo no repositório, passando para o estado "Committed".
+
+2.1:
+Initialized empty Git repository in C:/Users/berna/source/repos/GestaoEQualidadeDeSoftwareUna2025/aula-git/.git/
+
+2.2.1:
+Antes do git add estava "untracked" e depois do git add foi para "staged".
+
+2.2.2:
+Untracked: O arquivo não está sendo monitorado pelo Git.
+
+Tracked: O arquivo é monitorado pelo Git e pode estar em um dos seguintes estados:
+	Unmodified: O arquivo não foi alterado desde o último commit.
+	Modified: O arquivo foi alterado, mas ainda não foi adicionado ao staging area.
+	Staged: O arquivo foi modificado e adicionado ao staging area, pronto para ser incluído no próximo commit.
+
+2.2.3:
+É usado para salvar as alterações no repositório local no remoto.
+
+2.2.4:
+O arquivo passa para o estado "committed"
+
+2.3.1:
+O comando git diff mostra as diferenças entre o estado atual do seu repositório e o último commit.
+
+2.3.2:
+O "HEAD" é um ponteiro que indica o commit atual em que você está.
+
+2.4.1:
+O comando git branch mostra qual branch você está atualmente.
+O Git irá listar todas as branches locais e marcar com um asterisco (*) a branch em que você está.
+
+2.4.2:
+O Git vai mesclar as mudanças da branch nova-feature na branch atual. Isso significa que as alterações feitas na branch nova-feature, como a modificação do arquivo arquivo.txt, serão incorporadas na branch main.
+
+3.1:
+O -u no comando git push -u origin main significa "upstream" e serve para associar a branch local (main, no caso) com a branch remota (origin/main).
+
+3.2:
+Usando o comando "git remote -v"
+Esse comando lista os remotes configurados, mostrando a URL de cada um e se é usado para fetch (pegar alterações) ou push (enviar alterações).
+
+4.1:
+Eu não tive dificuldade com nenhuma etapa da atividade, mas creio que quem não tem costume deve ter alguma dificuldade principalmente em guardar e entender os comandos de terminal.
+
+4.2:
+O git ajuda mantendo o controle e versionamento de aplicações, e também servindo como um "backup" em nuvem onde você consegue acessar os arquivos commitados em qualquer lugar.
+
+4.3:
+O repositório remoto tem seu valor quando podemos guardar arquivos neles e fazer seu versionamento e controle de qualidade de forma simples e eficiente.
+
+
+
+
+
+
+
+
